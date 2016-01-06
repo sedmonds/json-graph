@@ -1,0 +1,55 @@
+{
+"nodes": [
+{
+"id": "n0",
+"label": "Conversation Topic 1",
+"x": 0,
+"y": 0,
+"size": 3
+},
+{
+"id": "n1",
+"label": "Conversation Topic 2",
+"x": 3,
+"y": 1,
+"size": 2
+},
+{
+"id": "n2",
+"label": "Conversation Topic 3",
+"x": 1,
+"y": 3,
+"size": 10
+},
+{
+"id": "n3",
+"label": "Conversation Topic 4",
+"x": 4,
+"y": 7,
+"size": 4
+}
+],
+"edges": [
+{
+"id": "e0",
+"source": "n0",
+"target": "n1"
+},
+{
+"id": "e1",
+"source": "n1",
+"target": "n3"
+},
+{
+"id": "e2",
+"source": "n3",
+"target": "n2"
+},
+{
+"id": "e3",
+"source": "n2",
+"target": "n0"
+}
+]
+}
+
